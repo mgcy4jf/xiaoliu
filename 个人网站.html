@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <p>我的个人网站</p>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 2em;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 2em;
+        }
+
+        .about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin-right: 1em;
+        }
+
+        .about p {
+            text-align: justify;
+        }
+
+        .projects img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 1em;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>关于我</h2>
+            <img src="your-profile-picture.jpg" alt="个人照片">
+            <p>你好！我叫姚远羲，我是一名网页开发者和设计师。我喜欢使用HTML、CSS和JavaScript创建美观且功能强大的网站。我对前端技术充满热情，并且总是在寻找新的挑战。</p>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>项目</h2>
+            <div>
+                <h3>项目一</h3>
+                <img src="project1-image.jpg" alt="项目一图片">
+                <p>这是一个简单的项目描述。这个项目让我学到了很多关于前端开发的知识。</p>
+            </div>
+            <div>
+                <h3>项目二</h3>
+                <img src="project2-image.jpg" alt="项目二图片">
+                <p>这是另一个项目，我在这个项目中尝试了一些新的技术和工具。</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>联系</h2>
+            <p>你可以通过以下方式联系我：</p>
+            <p><a href="mailto:your-email@example.com">电子邮件: your-email@example.com</a></p>
+            <p><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn: linkedin.com/in/your-linkedin-profile</a></p>
+            <p><a href="https://github.com/your-github-username" target="_blank">GitHub: github.com/your-github-username</a></p>
+        </section>
+    </div>
+</body>
+</html>
